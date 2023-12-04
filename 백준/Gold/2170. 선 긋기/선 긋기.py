@@ -1,6 +1,7 @@
 import sys
-N = int(sys.stdin.readline())
-arr = [list(map(int,sys.stdin.readline().split())) for _ in range(N)]
+input = sys.stdin.readline
+N = int(input())
+arr = [list(map(int,input().split())) for _ in range(N)]
 arr.sort()
 s = arr[0][0]
 e = arr[0][1]
