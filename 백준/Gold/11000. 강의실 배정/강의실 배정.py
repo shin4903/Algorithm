@@ -4,7 +4,7 @@ N = int(sys.stdin.readline())
 classtime = []
 room = []
 for _ in range(N):
-    s, t = map(int,input().split())
+    s, t = map(int,sys.stdin.readline().split())
     classtime.append([s,t])
 classtime.sort()
 
